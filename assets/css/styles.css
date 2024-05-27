@@ -36,7 +36,7 @@ nav ul li a {
 
 .car-list {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     gap: 20px;
     padding: 20px;
 }
@@ -44,12 +44,14 @@ nav ul li a {
 .car-card {
     background-color: #fff;
     padding: 15px;
+    border: 2px solid transparent;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     width: 100%;
     box-sizing: border-box;
     text-decoration: none;
     color: #333;
+    transition: border-color 0.3s;
 }
 
 .car-card img {
@@ -63,6 +65,10 @@ nav ul li a {
 
 .car-card p {
     margin: 5px 0;
+}
+
+.car-card:hover {
+    border-color: rgba(12, 12, 12, 0.442);
 }
 
 @media (min-width: 600px) {
