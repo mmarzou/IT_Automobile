@@ -36,7 +36,7 @@ nav ul li a {
 
 .car-list {
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
 }
@@ -108,4 +108,13 @@ nav ul li a {
 .car-detail p {
     font-size: 1.1em;
     margin: 5px 0;
+}
+
+.img-car {
+    width:500px;
+}
+
+.filter-block {
+    margin-right: auto;
+    margin-right: auto;
 }

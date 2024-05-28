@@ -17,6 +17,77 @@
             </ul>
         </nav>
     </header>
+    <section>
+        <img src="" alt="">
+    </section>
+    <div class="filter-block">
+        <h2>Choisissez le véhicule qui vous convient</h2>
+        <img class ="img-car" src="images/voiture.jpg" alt="">
+        <div class="filter">
+            <form class="filter-form">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="marque">Marque:</label>
+                        <select id="marque" name="marque">
+                            <option value="">Choisir...</option>
+                            <option value="audi">Audi</option>
+                            <option value="bmw">BMW</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="modele">Modèle:</label>
+                        <select id="modele" name="modele">
+                            <option value="">Choisir...</option>
+                            <option value="a3">A3</option>
+                            <option value="a4">A4</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="carburant">Carburant:</label>
+                        <select id="carburant" name="carburant">
+                            <option value="">Choisir...</option>
+                            <option value="essence">Essence</option>
+                            <option value="diesel">Diesel</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="places">Nombre de places:</label>
+                        <select id="places" name="places">
+                            <option value="">Choisir...</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="couleur">Couleur:</label>
+                        <select id="couleur" name="couleur">
+                            <option value="">Choisir...</option>
+                            <option value="rouge">Rouge</option>
+                            <option value="bleu">Bleu</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="prix">Prix:</label>
+                        <select id="prix" name="prix">
+                            <option value="">Choisir...</option>
+                            <option value="moins-de-20000">Moins de 20 000 €</option>
+                            <option value="plus-de-20000">Plus de 20 000 €</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="photos">Photo</label>
+                        <select id="photos" name="prix">
+                            <option value="">Choisir...</option>
+                            <option value="Oui">Oui</option>
+                            <option value="Non">Non</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="submit">Rechercher</button>
+            </form>
+        </div>
+    </div>
     <main>
         <h2>Liste des Voitures</h2>
         <section class="car-list">
