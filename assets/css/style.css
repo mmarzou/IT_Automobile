@@ -34,6 +34,12 @@ nav {
     height: 80px;
 }
 
+.nav-links a:hover,
+.nav-links .active a {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: hsl(180, 100%, 50%);
+}
 .logo {
     color: #fff;
     font-size: 24px;
@@ -114,7 +120,7 @@ nav {
     align-items: center;
     margin: 25px;
     padding: 20px;
-    background-color: rgba(241, 225, 225, 0.562);
+    background-color: rgba(241, 239, 239, 0.55);
     border-radius: 20px;
 }
 
@@ -151,11 +157,26 @@ nav {
 .search-form .search-button {
     grid-column: span 2;
 }
-.search-form .form-item, .search-form .search-button {
+
+.search-form .form-item,
+.search-form .search-button {
     padding: 10px;
     font-size: 16px;
     width: 100%;
     box-sizing: border-box;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+
+.form-item {
+    background-color: #ffffff;
+}
+
+.form-item:hover {
+    background-color: rgba(241, 241, 241, 0.8);
+    cursor: pointer;
 }
 
 .search-form .search-button {
@@ -163,9 +184,11 @@ nav {
     color: black;
     border: none;
     cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    border-radius: 8px;
 }
 
-.search-form .search-button:hover {
-    background-color: #b9b9b9;
+.search-button:hover {
+    background-color: rgba(241, 241, 241, 0.8);
     transition: 0.3 ease;
 }
