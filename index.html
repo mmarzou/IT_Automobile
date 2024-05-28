@@ -15,6 +15,12 @@
     <!-- Navbar -->
     <nav>
         <div class="logo"><a href="index.html">IT-Automobile</a></div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
         <ul class="nav-links">
             <li class="active"><a href="index.html">Accueil</a></li>
             <li><a href="#">Voitures</a></li>
@@ -36,6 +42,10 @@
         <div class="filter-container">
             <!-- Filter Search -->
             <div class="filter-section">
+                <div class="filter-header">
+                    <h1 class="filter-title">Choissiez le véhicule qui vous convient.</h1>
+                    <!-- <img src="/assets/images/car.png" alt="Voiture"> -->
+                </div>
                 <form class="search-form">
                     <select class="form-item">
                         <option class="form-option" value="">Marque</option>
@@ -79,10 +89,6 @@
                     <button type="submit" class="search-button">Rechercher</button>
                 </form>
                 <!-- Filter Image -->
-                <div class="filter-header">
-                    <h1 class="filter-title">Choissiez le véhicule qui vous convient.</h1>
-                    <img src="/assets/images/car.png" alt="Voiture">
-                </div>
             </div>
         </div>
     </div>
