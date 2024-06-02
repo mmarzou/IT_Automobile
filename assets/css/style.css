@@ -239,6 +239,10 @@ nav {
     transition: 0.3s ease;
 }
 /* Cartes */
+.lien-carte :hover {
+    text-decoration: underline;
+}
+
 .car-cards-section {
     display: flex;
     flex-wrap: wrap;
