@@ -193,7 +193,62 @@ nav {
     transition: 0.3 ease;
 }
 
-/* Car Details Container */
+/* Cartes */
+.car-cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1%;
+    margin: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+@media (min-width: 767px) {
+    .card {
+        width: calc(25% - 10px);
+    }
+}
+
+@media (max-width: 767px) {
+    .car-cards-section {
+        justify-content: center;
+    }
+
+    .card {
+        margin-top: 20px;
+        padding: 5px;
+    }
+
+    .card img {
+        max-height: 100px;
+    }
+}
+
+/* Page Détail voiture */
 .detail_container {
     width: 80%;
     margin: 20px auto;
@@ -252,7 +307,7 @@ nav {
 .caracteristiques p {
     line-height: 1.6;
 }
-/* Responsive Styles */
+
 @media (min-width: 768px) {
     .car-details {
         flex-direction: row;
