@@ -246,7 +246,7 @@ nav {
 .car-cards-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     gap: 1%;
     margin: 20px;
 }
