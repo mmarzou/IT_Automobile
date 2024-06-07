@@ -1,6 +1,6 @@
 # Site vitrine d'un concessionnaire automobile.
 
-> Made by : Mehdi, Théo, Pierre & Mohamed.
+Made by : Mehdi, Théo, Pierre & Mohamed.
 
 ## Desktop - Sketch
 
